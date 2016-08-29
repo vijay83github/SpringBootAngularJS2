@@ -1,4 +1,4 @@
-package com.tieto.springboot.configuration;
+package com.appdirect.user.configuration;
 
 import javax.servlet.Filter;
 

@@ -1,8 +1,8 @@
-package com.tieto.springboot.service;
+package com.appdirect.user.service;
 
 import java.util.List;
 
-import com.tieto.springboot.model.User;
+import com.appdirect.user.model.User;
 
 
 

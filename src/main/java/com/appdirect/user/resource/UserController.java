@@ -1,4 +1,4 @@
-package com.tieto.springboot.controller;
+package com.appdirect.user.resource;
  
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.tieto.springboot.model.User;
-import com.tieto.springboot.service.UserService;
+import com.appdirect.user.model.User;
+import com.appdirect.user.service.UserService;
 @EnableAutoConfiguration 
 @RestController
 @RequestMapping(value = "/SpringBootAngularJS/user")

@@ -1,4 +1,4 @@
-package com.tieto.springboot.service;
+package com.appdirect.user.service;
 
 import java.io.EOFException;
 import java.io.File;
@@ -13,7 +13,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.tieto.springboot.model.User;
+import com.appdirect.user.model.User;
 
 @Service("userService")
 public class UserServiceImpl implements UserService{

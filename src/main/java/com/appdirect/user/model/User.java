@@ -1,4 +1,4 @@
-package com.tieto.springboot.model;
+package com.appdirect.user.model;
 
 import java.io.Serializable;
 
