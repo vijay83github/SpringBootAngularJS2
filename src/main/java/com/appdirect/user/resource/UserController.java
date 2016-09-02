@@ -19,20 +19,17 @@ import com.appdirect.user.model.User;
 import com.appdirect.user.service.UserService;
 @EnableAutoConfiguration 
 @RestController
-@RequestMapping(value = "/SpringBootAngularJS/user")
+@RequestMapping(value = "/usermanagement/user")
 public class UserController {
  
     @Autowired
-    UserService userService;  //Service which will do all data retrieval/manipulation work
- 
+    UserService userService; 
     
-    //-------------------Retrieve All Users--------------------------------------------------------
-     
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<List<User>> listAllUsers() {
         List<User> users = userService.findAllUsers();
         if(users.isEmpty()){
-            return new ResponseEntity<List<User>>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
+            return new ResponseEntity<List<User>>(HttpStatus.NO_CONTENT);
         }
         return new ResponseEntity<List<User>>(users, HttpStatus.OK);
     }
