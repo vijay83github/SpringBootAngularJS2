@@ -6,6 +6,6 @@ mvn clean install
 # To run this application
 mvn spring-boot:run
 
-for home page type below url in browser
+# for home page type below url in browser
 http://localhost:8080/views/UserManagement.html
 
