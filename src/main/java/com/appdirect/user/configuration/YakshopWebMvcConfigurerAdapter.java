@@ -1,25 +1,13 @@
-package com.appdirect.user;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+/*package com.appdirect.user.configuration;
+
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-@ComponentScan
-@EnableAutoConfiguration
-@SpringBootApplication
-public class UserRegistrationApplication extends WebMvcConfigurerAdapter{
 
-	public static void main(String[] args) {
-		SpringApplication application = new SpringApplication(UserRegistrationApplication.class);
-		application.run(args);
-
-	}
-	
+public class YakshopWebMvcConfigurerAdapter extends WebMvcConfigurerAdapter  {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		/*ResourceHandlerRegistration resourceRegistration = registry
+		ResourceHandlerRegistration resourceRegistration = registry
 	            .addResourceHandler("resources/**");
 		resourceRegistration.addResourceLocations("/resources/**");
 		//resourceRegistration.addResourceLocations("/resources/static/**");
@@ -32,10 +20,13 @@ public class UserRegistrationApplication extends WebMvcConfigurerAdapter{
         registry.addResourceHandler("/js/**").addResourceLocations("/resources/static/js/**");
         registry.addResourceHandler("/**").addResourceLocations("/resources/static/views/**");
         registry.addResourceHandler("/resources/**")
-                .addResourceLocations("classpath:/resources/"); */
-        /*registry.addResourceHandler("/resources/static/**")
-        .addResourceLocations("classpath:/resources/static/"); */
+                .addResourceLocations("classpath:/resources/"); 
+        registry.addResourceHandler("/resources/static/**")
+        .addResourceLocations("classpath:/resources/static/"); 
 
 	}
 
+	
+
 }
+*/

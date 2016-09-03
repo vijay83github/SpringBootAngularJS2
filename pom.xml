@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.appdirect.user</groupId>
-	<artifactId>userregistration</artifactId>
+	<artifactId>UserRegistration</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 	<name>User registration Webapp</name>
@@ -26,36 +26,19 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.5.3</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency> -->
-		<!-- 
+		
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-		</dependency> -->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 
-	<!-- <build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<version>2.4</version>
-					<configuration>
-						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringBootAngularJS</warName>
-						<failOnMissingWebXml>false</failOnMissingWebXml>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-
-		<finalName>SpringBootAngularJS</finalName>
-	</build> -->
+	<!-- <build> <pluginManagement> <plugins> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-war-plugin</artifactId> <version>2.4</version> <configuration> 
+		<warSourceDirectory>src/main/webapp</warSourceDirectory> <warName>SpringBootAngularJS</warName> 
+		<failOnMissingWebXml>false</failOnMissingWebXml> </configuration> </plugin> 
+		</plugins> </pluginManagement> <finalName>SpringBootAngularJS</finalName> 
+		</build> -->
 </project>
